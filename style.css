@@ -1,0 +1,50 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+    padding: 4rem;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.biggest-card {
+    background-color: white;
+    text-align: center;
+}
+
+.plan-box {
+    background-color: var(--neutral-paleblue);
+    border-radius: 1.25rem;
+    padding: 2rem 2.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.greytext {
+    color:grey;
+}
+
+button {
+    border: none;
+    font-weight: 700;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.payment {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cancel {
+    color: grey;
+}

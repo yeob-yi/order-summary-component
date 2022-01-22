@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-
+/* 수정할 점
+img랑 under_pic 사이에 간격
+왜 80프로에 맞춰져있지 ?!?!?! -> 사진 크기 줄이고 under_pic width 맞추는 법?
+ */
 html {
     margin: 0;
     padding: 0;
